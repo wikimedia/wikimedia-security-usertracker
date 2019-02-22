@@ -9,7 +9,6 @@ import re
 import requests
 import smtplib
 import socket
-import sys
 import syslog
 import time
 
@@ -94,10 +93,9 @@ class PhabricatorTracker():
 
     def get_end_point_data(self, end_point_key, post_params):
         """ Get JSON data from gerrit API, process and load """
-        all_post_data = {}
         api_token_dict = {'api.token': self.phab_api_key}
         if isinstance(post_params, dict):
-            all_post_data = api_token_dict.update(post_params)
+            api_token_dict.update(post_params)
         else:
             raise ValueError('Incorrect format for post_params')
 
@@ -269,9 +267,9 @@ class GerritTracker():
                         gerrit_ps_id = obj2['_number']
 
                         if('owner' in obj2.keys() and
-                                obj2['owner']['_account_id'] ==
-                                self.gerrit_user_id):
-                                    user_info.append('Owner')
+                           obj2['owner']['_account_id'] == self.gerrit_user_id
+                           ):
+                            user_info.append('Owner')
                         if('submitter' in obj2.keys() and
                                 obj2['submitter']['_account_id'] ==
                                 self.gerrit_user_id):
