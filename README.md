@@ -27,12 +27,12 @@ time
 
 Command-line options to pass.  Most are required.
 
-# ```-h, --help``` - show this help message and exit
-# ```-e EMAILS, --emails EMAILS``` - email or comma-separated list of emails to notify
-# ```-d EMAILDEBUG, --emaildebug EMAILDEBUG``` - email debug flag (True or False)
-# ```-t TIMEINTERVAL, --timeinterval TIMEINTERVAL``` - time interval (e.g. 1d, 2m, etc - see process_time_interval)
-# ```-u GUSERNAME, --gusername GUSERNAME``` - gerrit username to track
-# ```-i GUSERID, --guserid GUSERID``` - gerrit user id to track (corresponds to --gusername)
+* ```-h, --help``` - show this help message and exit
+* ```-e EMAILS, --emails EMAILS``` - email or comma-separated list of emails to notify
+* ```-d EMAILDEBUG, --emaildebug EMAILDEBUG``` - email debug flag (True or False)
+* ```-t TIMEINTERVAL, --timeinterval TIMEINTERVAL``` - time interval (e.g. 1d, 2m, etc - see process_time_interval)
+* ```-u GUSERNAME, --gusername GUSERNAME``` - gerrit username to track
+* ```-i GUSERID, --guserid GUSERID``` - gerrit user id to track (corresponds to --gusername)
 
 ## Usage
 
@@ -48,7 +48,7 @@ Command-line options to pass.  Most are required.
 
 ## Known Issues
 
-# See TODOs in ```UserTracker.py```
+* See TODOs in ```UserTracker.py```
 
 ## Authors
 
