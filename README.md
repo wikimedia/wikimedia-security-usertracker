@@ -1,4 +1,4 @@
-# GitMonitor.sh
+# UserTracker
 
 Python tooling to monitor certain activities within Gerrit and Phabricator.  See ```./bin/GerritTracker -h``` or ```./bin/PhabricatorTracker -h``` for command-line arguments.
 
