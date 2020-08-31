@@ -21,7 +21,7 @@ time
 
 ## Installing
 
-1. ```git clone https://gerrit.wikimedia.org/r/wikimedia/security/tooling```
+1. ```git clone "https://gerrit.wikimedia.org/r/wikimedia/security/usertracker"```
 
 ## Options
 
@@ -56,4 +56,4 @@ Command-line options to pass.  Most are required.
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](https://opensource.org/licenses/Apache-2.0) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
